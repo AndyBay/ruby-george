@@ -106,7 +106,8 @@
       "name": "Punctuation",
       "scope": [
         "punctuation",
-        "meta.function.method.with-arguments"
+        "meta.function.method.with-arguments",
+        "meta.brace"
       ],
       "settings": {
         "foreground": "#9c9d9dff"
