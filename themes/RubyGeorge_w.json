@@ -34,7 +34,7 @@
     "dropdown.background": "#2a373a",                         // dropdown menu in eg. OUTPUT
     "dropdown.border": "#314144",
     "dropdown.foreground": "#aeb4bf",                         // letters in the menu (dropdown)
-    
+
     // "scrollbarSlider.background": "#2a373a",               // unable to see the "green stripes" with this colour
     "scrollbarslider.background": "#343b3d",
     "scrollbarSlider.activeBackground": "#31484f",
@@ -243,7 +243,10 @@
     },
     {
       "name": "Property Name",
-      "scope": "support.type.property-name",
+      "scope": [
+				"support.type.property-name",
+				"entity.name.tag"
+			],
       "settings": {
         "foreground": "#98816eff"
       }
@@ -309,7 +312,10 @@
     },
     {
       "name": "Illegal",
-      "scope": "illegal",
+			"scope": [
+				"illegal",
+				"invalid"
+			],
       "settings" : {
         "foreground": "#aa250a"
       }
