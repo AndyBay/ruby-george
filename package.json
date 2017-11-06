@@ -1,15 +1,14 @@
 {
     "name": "theme-ruby-george",
     "displayName": "ruby-george",
-    "description": "Personal project to get familiar with syntax grammar.",
+    "description": "Personal project to get familiar with syntax grammar and scopes.",
     "version": "0.0.1",
     "publisher": "AndyBay",
     "engines": {
         "vscode": "^1.12.0"
     },
     "categories": [
-        "Themes",
-        "Languages"
+        "Themes"
     ],
     "icon": "images/icon.svg",
     "extensionDependencies" : [
@@ -26,13 +25,6 @@
               "label": "Ruby George_w",
               "uiTheme": "vs-dark",
               "path": "./themes/RubyGeorge_w.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "ruby",
-                "scopeName": "source.ruby",
-                "path": "./syntaxes/ruby.tmLanguage.json"
             }
         ]
     }
