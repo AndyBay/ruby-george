@@ -88,7 +88,11 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword.control",
+      "scope": [
+        "keyword.control",
+        "storage.type.class",
+        "storage.type.function"
+      ],
       "settings": {
         "foreground": "#cea47f"
       }
@@ -107,7 +111,8 @@
       "scope": [
         "punctuation",
         "meta.function.method.with-arguments",
-        "meta.brace"
+        "meta.brace",
+        "keyword.operator.type"
       ],
       "settings": {
         "foreground": "#9c9d9dff"
@@ -135,19 +140,23 @@
       "name": "Keyword Special",
       "scope": [
         "keyword.other.special-method",
-        "meta.require",
         "entity.name.function.special",
+        "meta.method.declaration",
+        "meta.require",
+        "keyword.control.import",
+        "keyword.control.require",
         "support.function.core",
         "support.function",
-        "keyword.control.import",
-        "storage.modifier.declaration"
+        "storage.modifier.declaration",
+        "storage.modifier",
+        "storage.type"
       ],
       "settings": {
         "foreground": "#98816eff"
       }
     },
     {
-      "name": "Punctuation Seperator Variable",
+      "name": "Punctuation Separator Variable",
       "scope": [
         "punctuation.separator.variable",
         "punctuation.separator.arguments"
@@ -169,7 +178,8 @@
       "scope": [
         "support.class",
         "support.type",
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
+        "support.variable"
       ],
       "settings": {
         "foreground": "#b6776b"
@@ -236,7 +246,8 @@
       "name": "Punctuation Embedded",
       "scope": [
         "punctuation.section.embedded",
-        "constant.character.format.placeholder"
+        "constant.character.format.placeholder",
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#98816eff"
@@ -299,7 +310,10 @@
     },
     {
       "name": "Storage Type",
-      "scope": "storage.type",
+      "scope": [
+        "storage.type.c",
+        "storage.type.cpp"
+      ],
       "settings": {
         "foreground": "#b6776b"
       }

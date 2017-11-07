@@ -11,9 +11,6 @@
         "Themes"
     ],
     "icon": "images/icon.svg",
-    "extensionDependencies" : [
-        "ruby"
-    ],
     "contributes": {
         "themes": [
             {
