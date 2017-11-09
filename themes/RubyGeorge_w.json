@@ -87,6 +87,15 @@
       }
     },
     {
+      "name": "Variable member",
+      "scope": [
+        "variable.other.member"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
       "name": "Keyword",
       "scope": [
         "keyword.control",

@@ -1,28 +1,30 @@
 {
-    "name": "theme-ruby-george",
-    "displayName": "ruby-george",
-    "description": "Personal project to get familiar with syntax grammar and scopes.",
-    "version": "0.0.1",
-    "publisher": "AndyBay",
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "images/icon.svg",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ruby George",
-                "uiTheme": "vs-dark",
-                "path": "./themes/RubyGeorge.json"
-            },
-            {
-              "label": "Ruby George_w",
-              "uiTheme": "vs-dark",
-              "path": "./themes/RubyGeorge_w.json"
-            }
-        ]
-    }
+  "name": "theme-ruby-george",
+  "displayName": "Ruby George Theming",
+  "description": "Personal project to get familiar with syntax grammar and scopes.",
+  "version": "0.0.1",
+  "publisher": "AndyBay",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.svg",
+  "contributes": {
+    "themes": [
+      {
+        "id": "Ruby George Theme",
+        "label": "Ruby George Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RubyGeorge.json"
+      },
+      {
+        "id": "Ruby George Theme _w",
+        "label": "Ruby George _w",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RubyGeorge_w.json"
+      }
+    ]
+  }
 }
