@@ -83,7 +83,8 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#8fbcbb"
+        // "foreground": "#8fbcbb"
+        "foreground": "#749E94" //better??
       }
     },
     {
@@ -140,6 +141,15 @@
         "variable.language",
         "variable.other.readwrite.instance",
         "variable.parameter.function.language.special.self"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Class name as self function name",
+      "scope": [
+        "entity.name.function.class"
       ],
       "settings": {
         "foreground": "#d9c679"
