@@ -147,15 +147,6 @@
       }
     },
     {
-      "name": "Class name as self function name",
-      "scope": [
-        "entity.name.function.class"
-      ],
-      "settings": {
-        "foreground": "#d9c679"
-      }
-    },
-    {
       "name": "Keyword Special",
       "scope": [
         "keyword.other.special-method",
