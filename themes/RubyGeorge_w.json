@@ -230,6 +230,15 @@
       }
     },
     {
+      "name": "Function class name",
+      "scope": [
+        "entity.name.function.class"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
