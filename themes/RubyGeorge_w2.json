@@ -1,0 +1,351 @@
+{
+  "name": "Ruby George",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#192123",
+    "editor.foreground": "#d7dde8",
+    "editor.selectionBackground": "#2f3a3d",
+    "editor.lineHighlightBackground": "#232d30",
+    "editorCursor.foreground": "#d7dde8",
+    "editorWhitespace.foreground": "#4c566ab3",
+    "editorGroupHeader.tabsBackground": "#283538",
+    "tab.activeBackground": "#1d2628",
+    "tab.inactiveBackground": "#283538",
+    "statusBar.background": "#283538",
+    "activityBar.background": "#2a373a",
+    // "activityBarBadge.background": "#4f7f89",
+    "activityBarBadge.background": "#161c1e",
+    "sideBar.background": "#161c1e",
+    "sideBarSectionHeader.background": "#273235",
+    "editorSuggestWidget.background": "#1d2628",
+    "editorSuggestWidget.border": "#314144",
+    "editorSuggestWidget.selectedBackground": "#283538",
+    "editorSuggestWidget.highlightForeground": "#167e93",
+
+    "focusBorder": "#314144",                                 // marks searchboxes
+    "input.background": "#2a373a",                            // searchbox
+    "pickerGroup.foreground": "#037d99",                      // commands in the palette
+
+    "list.activeSelectionBackground": "#31484f",              // active folder/ file
+    "list.focusBackground": "#31484f",                        // focus-highlight in the palette
+    "list.hoverBackground": "#31484f",
+    "list.inactiveSelectionBackground": "#213035",            // active folder/ file when sidebar is inactive
+    "list.highlightForeground": "#167e93",                    // same letters/ words in the palette
+
+    "dropdown.background": "#2a373a",                         // dropdown menu in eg. OUTPUT
+    "dropdown.border": "#314144",
+    "dropdown.foreground": "#aeb4bf",                         // letters in the menu (dropdown)
+
+    // "scrollbarSlider.background": "#2a373a",               // unable to see the "green stripes" with this colour
+    "scrollbarslider.background": "#343b3d",
+    "scrollbarSlider.activeBackground": "#31484f",
+    "scrollbarSlider.hoverBackground": "#31484f",
+
+    "editorWidget.background": "#1d2628",
+
+    "debugToolBar.background": "#161c1e",
+
+    "tab.border": "#16181c",
+    // "contrastBorder": "#05070a",
+    "statusBar.foreground": "#d7dde8",
+
+    "button.background": "#31484f",
+    "inputValidation.infoBorder": "#31484f",                  // info button (check for updates e.g)
+    "activityBar.foreground": "#d7dde8",                      // icons/ text in activitybar
+
+//Terminal
+    "terminal.background": "#161c1e",
+    "terminal.ansiGreen": "#AEC199",
+    "terminal.ansiBrightGreen": "#AEC199",
+    "terminal.ansiBrightYellow": "#fff099",
+    "terminal.ansiBrightCyan": "#80B5B3",
+//Peek View Colours
+    "peekViewEditor.background": "#19262a",
+    "peekView.border": "#31484f",
+    "peekViewEditor.matchHighlightBackground": "#161c1e",
+    "peekViewResult.background": "#161c1e",
+    "peekViewTitle.background": "#161c1e",
+    "peekViewTitleLabel.foreground": "#d7dde8",
+    "peekViewResult.selectionForeground": "#d7dde8",
+    "peekViewResult.selectionBackground": "#31484f",
+    "peekViewResult.matchHighlightBackground": "#203136",
+//Input Option
+    "inputOption.activeBorder": "#3e5e66"
+  },
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#d7dde8",
+        "background": "#192123"
+      }
+    },
+    {
+      "name": "Source colour",
+      "scope": [
+        "source",
+        "variable"
+      ],
+      "settings": {
+        // "foreground": "#8fbcbb"
+        "foreground": "#749E94" //better??
+      }
+    },
+    {
+      "name": "Variable member",
+      "scope": [
+        "variable.other.member"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword.control",
+        "storage.type.class",
+        "storage.type.function"
+      ],
+      "settings": {
+        "foreground": "#cea47f"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#d88e79ff"
+        // "foreground": "#d39b67"
+        // "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.function.method.with-arguments",
+        "meta.brace",
+        "keyword.operator.type"
+      ],
+      "settings": {
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Numeric",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Keyword Self",
+      "scope": [
+        "variable.language",
+        "variable.other.readwrite.instance",
+        "variable.parameter.function.language.special.self"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Special",
+      "scope": [
+        "keyword.other.special-method",
+        "entity.name.function.special",
+        "meta.method.declaration",
+        "meta.require",
+        "keyword.control.import",
+        "keyword.control.require",
+        "support.function.core",
+        "support.function",
+        "storage.modifier.declaration",
+        "storage.modifier",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#98816eff"
+      }
+    },
+    {
+      "name": "Punctuation Separator Variable",
+      "scope": [
+        "punctuation.separator.variable",
+        "punctuation.separator.arguments"
+      ],
+      "settings": {
+        "foreground": "#cea47f"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        // "foreground": "#4C7749"
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Class Support",
+      "scope": [
+        "support.class",
+        "support.type",
+        "entity.other.inherited-class",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Symbol",
+      "scope": [
+        "constant.language.symbol",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Operator Arithmetic",
+      "scope": "keyword.operator.arithmetic",
+      "settings": {
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        // "foreground": "#5cb1bc"
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Function class name",
+      "scope": [
+        "entity.name.function.class"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#cea47f"
+      }
+    },
+    {
+      "name": "Keyword Operator Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#cea47f"
+      }
+    },
+    {
+      "name": "Keyword Operator Comparison",
+      "scope": "keyword.operator.comparison",
+      "settings": {
+        // "foreground": "#d39b67"
+        "foreground": "#cea47f"
+      }
+    },
+    {
+      "name": "Punctuation Embedded",
+      "scope": [
+        "punctuation.section.embedded",
+        "constant.character.format.placeholder",
+        "punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#98816eff"
+      }
+    },
+    {
+      "name": "Property Name",
+      "scope": [
+				"support.type.property-name",
+				"entity.name.tag"
+			],
+      "settings": {
+        "foreground": "#98816eff"
+      }
+    },
+    {
+      "name": "True/ False",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#5a5f68"
+      }
+    },
+    {
+      "name": "Keyword Escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#98816eff"
+      }
+    },
+    {
+      "name": "Punctuation String",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Punctuation Preprocessor",
+      "scope": "meta.preprocessor punctuation",
+      "settings": {
+        "foreground": "#6b6459"
+      }
+    },
+    {
+      "name": "String Preprocessor",
+      "scope": "meta.preprocessor string",
+      "settings": {
+        "foreground": "#7d705d"
+      }
+    },
+    {
+      "name": "Storage Type",
+      "scope": [
+        "storage.type.c",
+        "storage.type.cpp"
+      ],
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Type Name",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#d88e79"
+      }
+    }
+  ]
+}

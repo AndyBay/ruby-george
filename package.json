@@ -24,6 +24,12 @@
         "label": "Ruby George _w",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w.json"
+      },
+      {
+        "id": "Ruby George Theme _w2",
+        "label": "Ruby George _w2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RubyGeorge_w2.json"
       }
     ]
   }
