@@ -27,7 +27,8 @@
     "pickerGroup.foreground": "#037d99",                      // commands in the palette
 
     "list.activeSelectionBackground": "#31484f",              // active folder/ file
-    "list.focusBackground": "#31484f",                        // focus-highlight in the palette
+    // "list.focusBackground": "#31484f",                        // focus-highlight in the palette
+    "list.focusBackground": "#232d30",
     "list.hoverBackground": "#31484f",
     "list.inactiveSelectionBackground": "#213035",            // active folder/ file when sidebar is inactive
     "list.highlightForeground": "#167e93",                    // same letters/ words in the palette
@@ -69,8 +70,13 @@
     "peekViewResult.selectionForeground": "#d7dde8",
     "peekViewResult.selectionBackground": "#31484f",
     "peekViewResult.matchHighlightBackground": "#203136",
-//Input Option
+//Input
+//  Option
     "inputOption.activeBorder": "#3e5e66"
+//  Validation
+
+//Git
+    // not currently available?
   },
   "tokenColors": [
     {
