@@ -38,9 +38,9 @@
     "dropdown.foreground": "#aeb4bf",                         // letters in the menu (dropdown)
 
     // "scrollbarSlider.background": "#2a373a",               // unable to see the "green stripes" with this colour
-    "scrollbarslider.background": "#343b3d",
-    "scrollbarSlider.activeBackground": "#31484f",
-    "scrollbarSlider.hoverBackground": "#31484f",
+    // "scrollbarslider.background": "#343b3d",
+    // "scrollbarSlider.activeBackground": "#31484f",
+    // "scrollbarSlider.hoverBackground": "#31484f",
 
     "editorWidget.background": "#1d2628",
 
@@ -69,15 +69,32 @@
     "peekViewTitleLabel.foreground": "#d7dde8",
     "peekViewResult.selectionForeground": "#d7dde8",
     "peekViewResult.selectionBackground": "#31484f",
-    "peekViewResult.matchHighlightBackground": "#203136",
+    "peekViewResult.matchHighlightBackground": "#203136"
 //Input
-//  Option
-    "inputOption.activeBorder": "#3e5e66"
-//  Validation
+  //Option
+    , "inputOption.activeBorder": "#3e5e66"
+  //Validation
 
 //Git
     // not currently available?
+//Border
+    , "sideBar.border": "#05070a"         // view with the file tree
+    , "statusBar.border": "#05070a"       // Bottom
+    , "activityBar.border": "#05070a"     // to the side, view with only icons (file, search etc.)
+    , "editorGroup.border": "#05070a"     // border between editors (when several opened)
+//Scrollbar
+    // , "scrollbarSlider.background": "#232d309b"       // scrollbar colour when cursor hovering over editor
+    , "scrollbarSlider.background": "#3e455286"
+    // , "scrollbarSlider.hoverBackground": "#232d30"    // scrollbar colour when hovering over scrollbar
+    // , "scrollbarSlider.activeBackground": "#232d30"   // scrollbar colour when "holding" the scrollbar
+    , "scrollbarSlider.hoverBackground": "#3e4552d0"
+    , "scrollbarSlider.activeBackground": "#3e4552d0"
+
+//Overview Ruler
+    , "editorOverviewRuler.border": "#fdfdfd00"   // border right next to the scrollbar to the left (here: transparant)
+
   },
+//Scopes
   "tokenColors": [
     {
       "settings": {
