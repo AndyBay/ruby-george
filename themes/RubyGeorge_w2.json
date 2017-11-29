@@ -2,97 +2,95 @@
   "name": "Ruby George",
   "type": "dark",
   "colors": {
-    "editor.background": "#192123",
-    "editor.foreground": "#d7dde8",
-    "editor.selectionBackground": "#2f3a3d",
-    "editor.lineHighlightBackground": "#232d30",
-    "editorCursor.foreground": "#d7dde8",
-    "editorWhitespace.foreground": "#4c566ab3",
-    "editorGroupHeader.tabsBackground": "#283538",
-    "tab.activeBackground": "#1d2628",
-    "tab.inactiveBackground": "#283538",
-    "statusBar.background": "#283538",
-    "activityBar.background": "#2a373a",
-    // "activityBarBadge.background": "#4f7f89",
-    "activityBarBadge.background": "#161c1e",
-    "sideBar.background": "#161c1e",
-    "sideBarSectionHeader.background": "#273235",
-    "editorSuggestWidget.background": "#1d2628",
-    "editorSuggestWidget.border": "#314144",
-    "editorSuggestWidget.selectedBackground": "#283538",
-    "editorSuggestWidget.highlightForeground": "#167e93",
-
-    "focusBorder": "#314144",                                 // marks searchboxes
-    "input.background": "#2a373a",                            // searchbox
-    "pickerGroup.foreground": "#037d99",                      // commands in the palette
-
-    "list.activeSelectionBackground": "#31484f",              // active folder/ file
-    // "list.focusBackground": "#31484f",                        // focus-highlight in the palette
-    "list.focusBackground": "#232d30",
-    "list.hoverBackground": "#31484f",
-    "list.inactiveSelectionBackground": "#213035",            // active folder/ file when sidebar is inactive
-    "list.highlightForeground": "#167e93",                    // same letters/ words in the palette
-
-    "dropdown.background": "#2a373a",                         // dropdown menu in eg. OUTPUT
-    "dropdown.border": "#314144",
-    "dropdown.foreground": "#aeb4bf",                         // letters in the menu (dropdown)
-
-    // "scrollbarSlider.background": "#2a373a",               // unable to see the "green stripes" with this colour
-    // "scrollbarslider.background": "#343b3d",
-    // "scrollbarSlider.activeBackground": "#31484f",
-    // "scrollbarSlider.hoverBackground": "#31484f",
-
-    "editorWidget.background": "#1d2628",
-
-    "debugToolBar.background": "#161c1e",
-
-    "tab.border": "#16181c",
-    // "contrastBorder": "#05070a",
-    "statusBar.foreground": "#d7dde8",
-
-    "button.background": "#31484f",
-    "inputValidation.infoBorder": "#31484f",                  // info button (check for updates e.g)
-    "activityBar.foreground": "#d7dde8",                      // icons/ text in activitybar
-
-//Terminal
-    "terminal.background": "#161c1e",
-    "terminal.ansiGreen": "#AEC199",
-    "terminal.ansiBrightGreen": "#AEC199",
-    "terminal.ansiBrightYellow": "#fff099",
-    "terminal.ansiBrightCyan": "#80B5B3",
-//Peek View Colours
-    "peekViewEditor.background": "#19262a",
-    "peekView.border": "#31484f",
-    "peekViewEditor.matchHighlightBackground": "#161c1e",
-    "peekViewResult.background": "#161c1e",
-    "peekViewTitle.background": "#161c1e",
-    "peekViewTitleLabel.foreground": "#d7dde8",
-    "peekViewResult.selectionForeground": "#d7dde8",
-    "peekViewResult.selectionBackground": "#31484f",
-    "peekViewResult.matchHighlightBackground": "#203136"
-//Input
-  //Option
-    , "inputOption.activeBorder": "#3e5e66"
-  //Validation
-
-//Git
-    // not currently available?
+//Base colour
+      "editor.background": "#192123"
+    , "editor.foreground": "#d7dde8"
+    , "editor.selectionBackground": "#2f3a3d"
+    , "editor.lineHighlightBackground": "#232d30"
+    , "editorCursor.foreground": "#d7dde8"
+    , "editorWhitespace.foreground": "#4c566ab3"
 //Border
-    , "sideBar.border": "#05070a"         // view with the file tree
-    , "statusBar.border": "#05070a"       // Bottom
-    , "activityBar.border": "#05070a"     // to the side, view with only icons (file, search etc.)
-    , "editorGroup.border": "#05070a"     // border between editors (when several opened)
+    , "sideBar.border": "#05070a"                             // view with the file tree
+    , "statusBar.border": "#05070a"                           // Bottom
+    , "activityBar.border": "#05070a"                         // to the side, view with only icons (file, search etc.)
+    , "editorGroup.border": "#05070a"                         // border between editors (when several opened)
+    , "editorGroupHeader.tabsBorder": "#05070a"               // border under tabs
+    , "inputOption.activeBorder": "#d9c679"                   // border around selected option in search
+    , "tab.border": "#16181c"
+    , "focusBorder": "#314144"                                // highlights searchbox (eg. ctrl+f) (here: subtle/ non distracting)
+    , "dropdown.border": "#314144"
+    // , "inputValidation.infoBorder": "#31484f"                 // info button (check for updates e.g) (old, not sure what it does)
+  //transparent
+    , "editorOverviewRuler.border": "#fdfdfd00"               // border right next to the scrollbar to the left
+    , "inputValidation.errorBorder": "#ffffff00"              // border around error message in search
+//Activitybar                                                 (view to the far left/right with onlybuttons (file, search..))
+    , "activityBar.background": "#2a373a"
+    , "activityBar.foreground": "#d7dde8"                     // icons/ text
+//Sidebar                                                     (view to the left/right with tree and list)
+    , "sideBar.background": "#161c1e"
+    , "sideBarSectionHeader.background": "#31484fc5"          // (eg. "tab" for "open editors")
+    , "list.hoverBackground": "#232d30"                       // file/ object background colour mouse is currently hovering over
+    , "list.activeSelectionBackground": "#232d30"
+    , "list.inactiveFocusBackground": "#232d30"
+    , "list.inactiveSelectionBackground": "#232d30"
+    , "list.focusBackground": "#232d30"
+//Statusbar
+    , "statusBar.background": "#283538"
+    , "statusBar.foreground": "#d7dde8"
+//Palette
+    , "pickerGroup.foreground": "#d9c679"                     // helper text (eg. "recently used")
+    , "list.highlightForeground": "#167e93"                   // same letters/ words (intellisense)
+//Tab
+    , "tab.activeBackground": "#1d2628"
+    , "tab.inactiveBackground": "#283538"
+    , "editorGroupHeader.tabsBackground": "#283538"
 //Scrollbar
-    // , "scrollbarSlider.background": "#232d309b"       // scrollbar colour when cursor hovering over editor
+    // , "scrollbarSlider.background": "#232d309b"              // scrollbar colour when cursor hovering over editor
     , "scrollbarSlider.background": "#3e455286"
-    // , "scrollbarSlider.hoverBackground": "#232d30"    // scrollbar colour when hovering over scrollbar
-    // , "scrollbarSlider.activeBackground": "#232d30"   // scrollbar colour when "holding" the scrollbar
+    // , "scrollbarSlider.hoverBackground": "#232d30"           // scrollbar colour when hovering over scrollbar
+    // , "scrollbarSlider.activeBackground": "#232d30"          // scrollbar colour when "holding" the scrollbar
     , "scrollbarSlider.hoverBackground": "#3e4552d0"
     , "scrollbarSlider.activeBackground": "#3e4552d0"
+//Button
+    , "button.background": "#31484f"
+    , "button.hoverBackground": "#27393f"
+    , "notification.buttonBackground": "#31484f"              // notification button to the right
+  //unclickable
+    , "notification.infoBackground": "#31484f"                // notification info button to the left
+    , "activityBarBadge.background": "#161c1e"
+    , "badge.background": "#05070a"
+//Editor Widget
+    , "editorWidget.background": "#1d2628"
+    , "editorSuggestWidget.background": "#1d2628"
+    , "editorSuggestWidget.border": "#314144"
+    , "editorSuggestWidget.selectedBackground": "#283538"
+    , "editorSuggestWidget.highlightForeground": "#167e93"
+//Dropdown menu
+    , "dropdown.background": "#2a373a"                         // dropdown menu in eg. OUTPUT
+    , "dropdown.foreground": "#aeb4bf"                         // letters in the menu (dropdown)
+//Input                                                        (eg. search view)
+    , "input.background": "#2a373a"                            // searchbox
+//Terminal
+    , "terminal.background": "#161c1e"
+    , "terminal.ansiGreen": "#AEC199"
+    , "terminal.ansiBrightGreen": "#AEC199"
+    , "terminal.ansiBrightYellow": "#fff099"
+    , "terminal.ansiBrightCyan": "#80B5B3"
+//Peek View Colours
+    , "peekViewEditor.background": "#19262a"
+    , "peekView.border": "#31484f"
+    , "peekViewEditor.matchHighlightBackground": "#161c1e"
+    , "peekViewResult.background": "#161c1e"
+    , "peekViewTitle.background": "#161c1e"
+    , "peekViewTitleLabel.foreground": "#d7dde8"
+    , "peekViewResult.selectionForeground": "#d7dde8"
+    , "peekViewResult.selectionBackground": "#31484f"
+    , "peekViewResult.matchHighlightBackground": "#203136"
+//Notification                                                dropdown notification from above
+    , "notification.background": "#1d2628"
 
-//Overview Ruler
-    , "editorOverviewRuler.border": "#fdfdfd00"   // border right next to the scrollbar to the left (here: transparant)
 
+    , "debugToolBar.background": "#161c1e"
   },
 //Scopes
   "tokenColors": [
