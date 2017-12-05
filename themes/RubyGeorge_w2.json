@@ -86,7 +86,7 @@
     , "peekViewResult.selectionForeground": "#d7dde8"
     , "peekViewResult.selectionBackground": "#31484f"
     , "peekViewResult.matchHighlightBackground": "#203136"
-//Notification                                                dropdown notification from above
+//Notification                                                (dropdown notification from above)
     , "notification.background": "#1d2628"
 
 
