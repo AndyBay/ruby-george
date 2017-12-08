@@ -1,0 +1,375 @@
+{
+  "name": "Ruby George",
+  "type": "dark",
+  "colors": {
+//Base colour
+      "editor.background": "#0E1417"
+    , "editor.foreground": "#d7dde8"
+    , "editor.selectionBackground": "#2f3a3d"
+    , "editor.lineHighlightBackground": "#182328"
+    , "editorCursor.foreground": "#d7dde8"
+    , "editorWhitespace.foreground": "#4c566ab3"
+//Border
+    , "sideBar.border": "#05070a"                             // view with the file tree
+    , "statusBar.border": "#05070a"                           // Bottom
+    , "activityBar.border": "#05070a"                         // to the side, view with only icons (file, search etc.)
+    , "editorGroup.border": "#05070a"                         // border between editors (when several opened)
+    , "editorGroupHeader.tabsBorder": "#05070a"               // border under tabs
+    , "inputOption.activeBorder": "#d9c679"                   // border around selected option in search
+    , "tab.border": "#16181c"
+    , "focusBorder": "#314144"                                // highlights searchbox (eg. ctrl+f) (here: subtle/ non distracting)
+    , "dropdown.border": "#314144"
+    // , "inputValidation.infoBorder": "#31484f"                 // info button (check for updates e.g) (old, not sure what it does)
+  //transparent
+    , "editorOverviewRuler.border": "#fdfdfd00"               // border right next to the scrollbar to the left
+    , "inputValidation.errorBorder": "#ffffff00"              // border around error message in search
+//Activitybar                                                 (view to the far left/right with onlybuttons (file, search..))
+    , "activityBar.background": "#223339"
+    , "activityBar.foreground": "#d7dde8"                     // icons/ text
+//Sidebar                                                     (view to the left/right with tree and list)
+    , "sideBar.background": "#0C0F11"
+    , "sideBarSectionHeader.background": "#31484fc5"          // (eg. "tab" for "open editors")
+    , "list.hoverBackground": "#182328"                       // file/ object background colour mouse is currently hovering over
+    , "list.activeSelectionBackground": "#182328"
+    , "list.inactiveFocusBackground": "#182328"
+    , "list.inactiveSelectionBackground": "#182328"
+    , "list.focusBackground": "#182328"
+//Statusbar
+    , "statusBar.background": "#1F2F35"
+    , "statusBar.foreground": "#d7dde8"
+//Palette
+    , "pickerGroup.foreground": "#d9c679"                     // helper text (eg. "recently used")
+    , "list.highlightForeground": "#167e93"                   // same letters/ words (intellisense)
+//Tab
+    , "tab.activeBackground": "#121A1C"
+    , "tab.inactiveBackground": "#1F2F35"
+    , "editorGroupHeader.tabsBackground": "#1F2F35"
+//Scrollbar
+    // , "scrollbarSlider.background": "#1823289b"              // scrollbar colour when cursor hovering over editor
+    , "scrollbarSlider.background": "#3e455286"
+    // , "scrollbarSlider.hoverBackground": "#182328"           // scrollbar colour when hovering over scrollbar
+    // , "scrollbarSlider.activeBackground": "#182328"          // scrollbar colour when "holding" the scrollbar
+    , "scrollbarSlider.hoverBackground": "#3e4552d0"
+    , "scrollbarSlider.activeBackground": "#3e4552d0"
+  //Error, warning, info
+    , "editorOverviewRuler.infoForeground": "#1968b1"           // standard blue too dark to see
+//Button
+    // , "button.background": "#31484f"
+    // , "button.hoverBackground": "#27393f"
+    // , "notification.buttonBackground": "#31484f"              // notification button to the right
+  //unclickable
+    // , "notification.infoBackground": "#31484f"                // notification info button to the left
+    , "activityBarBadge.background": "#0C0F11"
+    , "badge.background": "#05070a"
+//Editor Widget
+    , "editorWidget.background": "#121A1C"
+    , "editorSuggestWidget.background": "#121A1C"
+    , "editorSuggestWidget.border": "#314144"
+    , "editorSuggestWidget.selectedBackground": "#1F2F35"
+    , "editorSuggestWidget.highlightForeground": "#167e93"
+//Dropdown menu
+    , "dropdown.background": "#223339"                         // dropdown menu in eg. OUTPUT
+    , "dropdown.foreground": "#aeb4bf"                         // letters in the menu (dropdown)
+//Input                                                        (eg. search view)
+    , "input.background": "#223339"                            // searchbox
+//Terminal
+    , "terminal.background": "#0C0F11"
+    , "terminal.ansiGreen": "#AEC199"
+    , "terminal.ansiBrightGreen": "#AEC199"
+    , "terminal.ansiBrightYellow": "#fff099"
+    , "terminal.ansiBrightCyan": "#80B5B3"
+//Peek View Colours
+    , "peekViewEditor.background": "#19262a"
+    , "peekView.border": "#31484f"
+    , "peekViewEditor.matchHighlightBackground": "#0C0F11"
+    , "peekViewResult.background": "#0C0F11"
+    , "peekViewTitle.background": "#0C0F11"
+    , "peekViewTitleLabel.foreground": "#d7dde8"
+    , "peekViewResult.selectionForeground": "#d7dde8"
+    , "peekViewResult.selectionBackground": "#31484f"
+    , "peekViewResult.matchHighlightBackground": "#203136"
+//Notification                                                (dropdown notification from above)
+    // , "notification.background": "#121A1C"
+    , "notification.background": "#223339"
+
+
+    , "debugToolBar.background": "#0C0F11"
+  },
+//Scopes
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#d7dde8",
+        "background": "#0E1417"
+      }
+    },
+    {
+      "name": "Source colour",
+      "scope": [
+        "source",
+        "variable"
+      ],
+      "settings": {
+        // "foreground": "#8fbcbb"
+        "foreground": "#749E94" //better??
+      }
+    },
+    {
+      "name": "Variable member",
+      "scope": [
+        "variable.other.member"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword.control",
+        "storage.type.class",
+        "storage.type.function"
+      ],
+      "settings": {
+        "foreground": "#C6A17F"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#d88e79ff"
+        // "foreground": "#d39b67"
+        // "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.function.method.with-arguments",
+        "meta.brace",
+        "keyword.operator.type"
+      ],
+      "settings": {
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Numeric",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Keyword Self",
+      "scope": [
+        "variable.language",
+        "variable.other.readwrite.instance",
+        "variable.parameter.function.language.special.self"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Special",
+      "scope": [
+        "keyword.other.special-method",
+        "entity.name.function.special",
+        "meta.method.declaration",
+        "meta.require",
+        "keyword.control.import",
+        "keyword.control.require",
+        "support.function.core",
+        "support.function",
+        "storage.modifier.declaration",
+        "storage.modifier",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#908169"
+      }
+    },
+    {
+      "name": "Punctuation Separator Variable",
+      "scope": [
+        "punctuation.separator.variable",
+        "punctuation.separator.arguments"
+      ],
+      "settings": {
+        "foreground": "#C6A17F"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        // "foreground": "#4C7749"
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Class Support",
+      "scope": [
+        "support.class",
+        "support.type",
+        "entity.other.inherited-class",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Symbol",
+      "scope": [
+        "constant.language.symbol",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Operator Arithmetic",
+      "scope": "keyword.operator.arithmetic",
+      "settings": {
+        "foreground": "#9c9d9dff"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        // "foreground": "#5cb1bc"
+        "foreground": "#609ad2ff"
+      }
+    },
+    {
+      "name": "Function class name",
+      "scope": [
+        "entity.name.function.class"
+      ],
+      "settings": {
+        "foreground": "#d9c679"
+      }
+    },
+    {
+      "name": "Keyword Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#C6A17F"
+      }
+    },
+    {
+      "name": "Keyword Operator Assignment",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#C6A17F"
+      }
+    },
+    {
+      "name": "Keyword Operator Comparison",
+      "scope": "keyword.operator.comparison",
+      "settings": {
+        // "foreground": "#d39b67"
+        "foreground": "#C6A17F"
+      }
+    },
+    {
+      "name": "Punctuation Embedded",
+      "scope": [
+        "punctuation.section.embedded",
+        "constant.character.format.placeholder",
+        "punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#908169"
+      }
+    },
+    {
+      "name": "Property Name",
+      "scope": [
+				"support.type.property-name",
+				"entity.name.tag"
+			],
+      "settings": {
+        "foreground": "#908169"
+      }
+    },
+    {
+      "name": "True/ False",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#5a5f68"
+      }
+    },
+    {
+      "name": "Keyword Escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#908169"
+      }
+    },
+    {
+      "name": "Punctuation String",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Punctuation Preprocessor",
+      "scope": "meta.preprocessor punctuation",
+      "settings": {
+        "foreground": "#6b6459"
+      }
+    },
+    {
+      "name": "String Preprocessor",
+      "scope": "meta.preprocessor string",
+      "settings": {
+        "foreground": "#7d705d"
+      }
+    },
+    {
+      "name": "Storage Type",
+      "scope": [
+        "storage.type.c",
+        "storage.type.cpp"
+      ],
+      "settings": {
+        "foreground": "#b6776b"
+      }
+    },
+    {
+      "name": "Type Name",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#d88e79"
+      }
+    }
+  ]
+}
