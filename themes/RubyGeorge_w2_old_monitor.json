@@ -229,7 +229,8 @@
         "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#609ad2ff"
+        // "foreground": "#609ad2ff"      // methods and symbols are used very clustered in rails, too much blue
+        "foreground": "#b6776b"
       }
     },
     {
@@ -243,7 +244,8 @@
       "name": "Keyword Operator Arithmetic",
       "scope": "keyword.operator.arithmetic",
       "settings": {
-        "foreground": "#9c9d9dff"
+        // "foreground": "#9c9d9dff"
+        "foreground": "#C6A17F"           // not sure about this colour, but needs to stand more out than grey
       }
     },
     {
@@ -275,7 +277,10 @@
     },
     {
       "name": "Keyword Operator Assignment",
-      "scope": "keyword.operator.assignment",
+      "scope": [
+        "keyword.operator.assignment",
+        "punctuation.separator.key-value"
+      ],
       "settings": {
         "foreground": "#C6A17F"
       }
