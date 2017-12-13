@@ -4,6 +4,9 @@
   "description": "Personal project to get familiar with syntax grammar and scopes.",
   "version": "0.0.1",
   "publisher": "AndyBay",
+  "scripts": {
+    "update": "node ./build/update-icon-theme.js"
+  },
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -14,28 +17,35 @@
   "contributes": {
     "themes": [
       {
-        "id": "Ruby George Theme",
+        "id": "rg-theme",
         "label": "Ruby George Material",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge.json"
       },
       {
-        "id": "Ruby George Theme _w",
+        "id": "rg-theme_w",
         "label": "Ruby George _w",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w.json"
       },
       {
-        "id": "Ruby George Theme _w2",
+        "id": "rg-theme_w2",
         "label": "Ruby George _w2",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w2.json"
       },
       {
-        "id": "Ruby George Theme _w2 Old Monitor",
+        "id": "rg-theme_w2-old-monitor",
         "label": "Ruby George _w2 Old Monitor",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w2_old_monitor.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "rg-icon-seti",
+        "label": "Seti (Ruby George)",
+        "path": "./icons/RubyGeorge_seti.json"
       }
     ]
   }
