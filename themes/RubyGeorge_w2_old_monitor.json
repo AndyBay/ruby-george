@@ -79,7 +79,7 @@
     , "terminal.ansiBrightYellow": "#fff099"
     , "terminal.ansiBrightCyan": "#80B5B3"
 //Peek View Colours
-    , "peekViewEditor.background": "#19262a"
+    , "peekViewEditor.background": "#0F1A1F"                  // editor background
     , "peekView.border": "#31484f"
     , "peekViewEditor.matchHighlightBackground": "#0C0F11"
     , "peekViewResult.background": "#0C0F11"
