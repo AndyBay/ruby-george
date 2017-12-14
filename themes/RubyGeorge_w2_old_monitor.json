@@ -66,7 +66,7 @@
     , "editorSuggestWidget.background": "#121A1C"
     , "editorSuggestWidget.border": "#314144"
     , "editorSuggestWidget.selectedBackground": "#1F2F35"
-    , "editorSuggestWidget.highlightForeground": "#167e93"
+    , "editorSuggestWidget.highlightForeground": "#167e93"      // same letters/ words (intellisense)
 //Dropdown menu
     , "dropdown.background": "#223339"                         // dropdown menu in eg. OUTPUT
     , "dropdown.foreground": "#aeb4bf"                         // letters in the menu (dropdown)
