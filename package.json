@@ -39,6 +39,12 @@
         "label": "Ruby George _w2 Old Monitor",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w2_old_monitor.json"
+      },
+      {
+        "id": "rg-theme_w3-old-monitor",
+        "label": "Ruby George _w3 Old Monitor",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RubyGeorge_w3_old_monitor.json"
       }
     ],
     "iconThemes": [
