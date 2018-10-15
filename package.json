@@ -1,12 +1,9 @@
 {
   "name": "theme-ruby-george",
-  "displayName": "Ruby George Theming",
+  "displayName": "Ruby George Theaming",
   "description": "Personal project to get familiar with syntax grammar and scopes.",
   "version": "0.0.1",
   "publisher": "AndyBay",
-  "scripts": {
-    "update": "node ./build/update-icon-theme.js"
-  },
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -45,14 +42,19 @@
         "label": "Ruby George _w3 Old Monitor",
         "uiTheme": "vs-dark",
         "path": "./themes/RubyGeorge_w3_old_monitor.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "rg-icon-seti",
-        "label": "Seti (Ruby George)",
-        "path": "./icons/RubyGeorge_seti.json"
-      }
+      },
+	  {
+		"id": "rg-theme_w4-old-monitor",
+		"label": "Ruby George _w4 Old Monitor",
+		"uiTheme": "vs-dark",
+		"path": "./themes/RubyGeorge_w4_old_monitor.json"
+	  },
+	  {
+		"id": "rg-theme_w5-old-monitor",
+		"label": "Ruby George _w5 Old Monitor",
+		"uiTheme": "vs-dark",
+		"path": "./themes/RubyGeorge_w5_old_monitor"
+	  }
     ]
   }
 }
