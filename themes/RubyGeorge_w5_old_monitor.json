@@ -17,14 +17,14 @@
     , "editorGroup.border": "#05070a"                           // border between editors (when several opened)
     , "editorGroupHeader.tabsBorder": "#182328"                 // border under tabs
     , "inputOption.activeBorder": "#d9c679"                     // border around selected option in search
-    , "tab.border": "#16181c"
+    , "tab.border": "#182328"
     , "focusBorder": "#314144"                                  // highlights searchbox (eg. ctrl+f) (here: subtle/ non distracting)
     , "dropdown.border": "#16181c"
   //transparent
     , "editorOverviewRuler.border": "#182328"                   // border right next to the scrollbar to the left
     , "inputValidation.errorBorder": "#ffffff00"                // border around error message in search
 //Activitybar                                                   (view to the far left/right with onlybuttons (file, search..))
-    , "activityBar.background": "#131b1f"
+    , "activityBar.background": "#0E1417"
     , "activityBar.foreground": "#d7dde8"                       // icons/ text
 //Sidebar                                                       (view to the left/right with tree and list)
     , "sideBar.background": "#0C0F11"
