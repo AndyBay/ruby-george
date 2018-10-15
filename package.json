@@ -53,7 +53,7 @@
 		"id": "rg-theme_w5-old-monitor",
 		"label": "Ruby George _w5 Old Monitor",
 		"uiTheme": "vs-dark",
-		"path": "./themes/RubyGeorge_w5_old_monitor"
+		"path": "./themes/RubyGeorge_w5_old_monitor.json"
 	  }
     ]
   }
