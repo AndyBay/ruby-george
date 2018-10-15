@@ -10,25 +10,25 @@
     , "editorCursor.foreground": "#d7dde8"
     , "editorWhitespace.foreground": "#4c566ab3"
 //Border
-    , "sideBar.border": "#05070a"                               // view with the file tree
-    , "titleBar.border": "#05070a"
-	, "statusBar.border": "#05070a"                             // Bottom
-    , "activityBar.border": "#05070a"                           // to the side, view with only icons (file, search etc.)
+    , "sideBar.border": "#ff000000"                             // view with the file tree
+    , "titleBar.border": "#ff000000"
+    , "statusBar.border": "#10181b"                             // Bottom
+    , "activityBar.border": "#182328"                           // to the side, view with only icons (file, search etc.)
     , "editorGroup.border": "#05070a"                           // border between editors (when several opened)
-    , "editorGroupHeader.tabsBorder": "#05070a"                 // border under tabs
+    , "editorGroupHeader.tabsBorder": "#182328"                 // border under tabs
     , "inputOption.activeBorder": "#d9c679"                     // border around selected option in search
     , "tab.border": "#16181c"
     , "focusBorder": "#314144"                                  // highlights searchbox (eg. ctrl+f) (here: subtle/ non distracting)
     , "dropdown.border": "#16181c"
   //transparent
-    , "editorOverviewRuler.border": "#fdfdfd00"                 // border right next to the scrollbar to the left
+    , "editorOverviewRuler.border": "#182328"                   // border right next to the scrollbar to the left
     , "inputValidation.errorBorder": "#ffffff00"                // border around error message in search
 //Activitybar                                                   (view to the far left/right with onlybuttons (file, search..))
-    , "activityBar.background": "#10181b"
+    , "activityBar.background": "#131b1f"
     , "activityBar.foreground": "#d7dde8"                       // icons/ text
 //Sidebar                                                       (view to the left/right with tree and list)
     , "sideBar.background": "#0C0F11"
-    , "sideBarSectionHeader.background": "#121A1C"				// (eg. "tab" for "open editors")
+    , "sideBarSectionHeader.background": "#131b1f"              // (eg. "tab" for "open editors")
     , "list.hoverBackground": "#182328"                         // file/ object background colour mouse is currently hovering over
     , "list.activeSelectionBackground": "#182328"
     , "list.inactiveFocusBackground": "#182328"
@@ -38,8 +38,8 @@
     , "statusBar.background": "#0C0F11"
     , "statusBar.foreground": "#d7dde8"
 //Titlebar
-    , "titleBar.activeBackground": "#151f23"
-    , "titleBar.inactiveBackground": "#151f23"
+    , "titleBar.activeBackground": "#0C0F11"
+    , "titleBar.inactiveBackground": "#10181b"
     , "titleBar.activeForeground": "#d7dde8"
     , "titleBar.inactiveForeground": "#9c9d9dff"
 //Palette
