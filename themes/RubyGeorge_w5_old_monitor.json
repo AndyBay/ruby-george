@@ -10,7 +10,7 @@
     , "editorCursor.foreground": "#d7dde8"
     , "editorWhitespace.foreground": "#4c566ab3"
 //Border
-    , "sideBar.border": "#ff000000"                             // view with the file tree
+    , "sideBar.border": "#0E1417"                               // view with the file tree
     , "titleBar.border": "#ff000000"
     , "statusBar.border": "#10181b"                             // Bottom
     , "activityBar.border": "#182328"                           // to the side, view with only icons (file, search etc.)
@@ -90,7 +90,7 @@
     , "notification.background": "#223339"
 
 //Debug
-    , "debugToolBar.background": "#0C0F11"
+    , "debugToolBar.background": "#121b1f"
   },
 //Scopes
   "tokenColors": [
@@ -352,7 +352,10 @@
     },
     {
       "name": "Punctuation String",
-      "scope": "punctuation.definition.string",
+      "scope": [
+        "punctuation.definition.string",
+        "string.quoted.other punctuation.section.array"
+      ],
       "settings": {
         "foreground": "#b6776b"
       }
